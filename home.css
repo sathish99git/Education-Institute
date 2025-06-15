@@ -1,0 +1,373 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 6px;
+    background-image: url(images/naviback.jpg);
+}
+.navigation img{
+    height: 160px;
+    width: 170px;
+}
+.menus ul li{
+    display: inline-block;
+    padding: 40px;
+}
+.menus ul li a{
+    text-decoration: none;
+}
+.menus a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.menus a i{
+    color: black;
+    padding: 3px;
+}
+.button button a{
+    text-decoration: none;
+    color: white;  
+}
+.button button{
+    background-color: rgb(245, 71, 8);
+    padding: 12px;
+    border-radius: 8px;
+}
+
+
+.navigation{
+
+    border-radius: 10px;
+    margin: 7px;
+    margin-top: 11px;
+}
+.navlogo img{
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 3px;
+    background-color: blue;
+    
+}
+.menubutton button{
+    background-color: orangered;
+    padding: 12px;
+    border-radius: 8px;
+}
+.menubutton button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.backgroundimg{
+    background-image: url(images/kgbackground1.jpg);
+    opacity: 1;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.span{
+    color: orangered;
+}
+.backgroundimg h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+.backgroundimg h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+}
+
+.h1 h1 {
+  position: relative;
+  animation: slideIn 1s ease forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    left: -100%;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.h2 h2 {
+  position: relative;
+  animation: slideRightToLeft 1s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    right: -100%;
+    opacity: 0;
+  }
+  100% {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+
+
+.buttonforbg button{
+    padding: 12px;
+    background-color: rgb(245, 71, 8);
+    border-radius: 8px;
+}
+.buttonforbg button a{
+    text-decoration: none;
+    color: black;
+}
+.learnersimg img{
+    border-radius: 20px;
+    text-align: center;
+    /*filter: brightness(50%);
+    filter: opacity(70%);
+    filter: hue-rotate(180deg);*/
+}
+
+.heads{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+
+
+.navigation{
+    
+    border-radius: 10px;
+    margin: 7px;
+    margin-top: 11px;
+}
+.logo img{
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 3px;
+    background-color: blue;
+}
+
+
+
+.backgroundimg{
+    background-image: url(images/kgbackground1.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+.span{
+    color: orangered;
+}
+.backgroundimg h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+.backgroundimg h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+}
+.buttonforbg button{
+    padding: 12px;
+    background-color: rgb(245, 71, 8);
+    border-radius: 8px;
+}
+.buttonforbg button a{
+    text-decoration: none;
+}
+.learnersimg img{
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px;
+   
+}
+
+.heads{
+    background-color: orangered;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+
+.companies1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 100px;
+    padding: 23px 16px;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+.companies2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 100px;
+    padding: 23px 16px;
+}
+.companies3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 100px;
+    padding: 23px 16px;
+}
+.companies4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 100px;
+    margin-bottom: 5px;
+}
+
+
+.companies1{
+    margin: 10px 0px;
+    padding: 2px 2px;
+}
+.companies2{
+    margin: 10px 0px;
+    padding: 2px 2px;
+}
+.companies3{
+    margin: 10px 0px;
+    padding: 2px 2px;
+}
+.companies4{
+    margin: 10px 0px;
+    padding: 2px 2px;
+}
+.companies1{
+   /* background-color: rgb(85,84,84); */
+    border-radius: 10px;
+}
+.companies2{
+    /*background-color: rgb(85, 84, 84);*/
+    border-radius: 10px;
+}
+.companies3{
+    /*background-color: rgb(85, 84, 84);*/
+    border-radius: 10px;
+}
+.companies4{
+   /* background-color: rgb(85, 84, 84);*/
+    border-radius: 10px;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 28px 0px;
+  
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee-left 10s linear infinite;
+}
+
+.marquee-content img {
+  width: 200px;
+  height: 200px;
+  padding: 5px 5px;
+  margin: 15px 15px;
+  border: 2px solid black;
+  background-color: orangered;
+  border-radius: 10px;
+  margin-left: 20px; /* Optional spacing between images */
+}
+
+@keyframes marquee-left {
+  0%   { transform: translateX(-70%); }
+  100% { transform: translateX(0); }
+}
+
+
+
+
+
+
+.location{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightslategray;
+    color: black;
+    margin: 10px 0px;
+    padding: 40px 50px;
+}
+
+.quick h2 a{
+    color: black;
+    text-decoration: none;
+}
+.quick i{
+    padding: 5px;
+}
+
+
+
+.quick{
+    padding: 0px 80px;
+    margin: 0px 40px;
+}
+.quick h2{
+    padding:13px 20px;
+    margin: 0px 2px;
+
+}
+
+.map iframe{
+    width:350px;
+    height: 350px;
+    border-radius: 10px;
+}
+.location{
+    border-radius: 15px;
+}
+.followus{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.followus h2{
+    color: white;
+}
+.followus i{
+    color: white;
+    padding: 0px 40px;
+}
+
+
+
+
+
